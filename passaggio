@@ -1,3 +1,43 @@
-PS C:\Users\Stefano\Desktop\IceStoneService\IceStoneApp\ICE-STONE-APP> npx expo config --json
-{"name":"ICE-STONE-APP","slug":"ICE-STONE-APP","version":"1.0.0","orientation":"portrait","icon":"./assets/images/icon.png","scheme":"icestoneapp","userInterfaceStyle":"automatic","ios":{"icon":"./assets/expo.icon"},"android":{"adaptiveIcon":{"backgroundColor":"#E6F4FE","foregroundImage":"./assets/images/android-icon-foreground.png","backgroundImage":"./assets/images/android-icon-background.png","monochromeImage":"./assets/images/android-icon-monochrome.png"},"predictiveBackGestureEnabled":false},"web":{"output":"static","favicon":"./assets/images/favicon.png"},"plugins":["expo-router",["expo-splash-screen",{"backgroundColor":"#208AEF","image":"./assets/images/splash-icon.png","imageWidth":76}]],"experiments":{"typedRoutes":true,"reactCompiler":true},"_internal":{"isDebug":false,"projectRoot":"C:\\Users\\Stefano\\Desktop\\IceStoneService\\IceStoneApp\\ICE-STONE-APP","dynamicConfigPath":{},"staticConfigPath":"C:\\Users\\Stefano\\Desktop\\IceStoneService\\IceStoneApp\\ICE-STONE-APP\\app.json","packageJsonPath":"C:\\Users\\Stefano\\Desktop\\IceStoneService\\IceStoneApp\\ICE-STONE-APP\\package.json","pluginHistory":{"expo-splash-screen":{"name":"expo-splash-screen",
-PS C:\Users\Stefano\Desktop\IceStoneService\IceStoneApp\ICE-STONE-APP> 
+{
+  "name": "ice-stone-app",
+  "main": "expo-router/entry",
+  "version": "1.0.0",
+  "dependencies": {
+    "@expo/ui": "~57.0.11",
+    "expo": "~57.0.14",
+    "expo-constants": "~57.0.12",
+    "expo-device": "~57.0.1",
+    "expo-font": "~57.0.1",
+    "expo-glass-effect": "~57.0.1",
+    "expo-image": "~57.0.3",
+    "expo-linking": "~57.0.6",
+    "expo-router": "~57.0.14",
+    "expo-splash-screen": "~57.0.7",
+    "expo-status-bar": "~57.0.1",
+    "expo-symbols": "~57.0.2",
+    "expo-system-ui": "~57.0.2",
+    "expo-web-browser": "~57.0.2",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.2",
+    "react-native-gesture-handler": "~2.32.0",
+    "react-native-reanimated": "4.5.1",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "~4.26.0",
+    "react-native-web": "~0.21.0",
+    "react-native-worklets": "0.10.1"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "reset-project": "node ./scripts/reset-project.js",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "expo lint"
+  },
+  "private": true
+}
