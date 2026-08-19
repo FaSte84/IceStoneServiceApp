@@ -1,9 +1,3 @@
-20/21 checks passed. 1 checks failed. Possible issues detected:
-Use the --verbose flag to see more details about passed checks.
-
-✖ Check for common project setup issues
-The .expo directory is not ignored by Git. It contains machine-specific device history and development server settings and should not be committed.
-Advice:
-Add ".expo/" to your .gitignore to avoid committing local Expo state.
-
-1 check failed, indicating possible issues with the project.
+PS C:\Users\Stefano\Desktop\IceStoneService\IceStoneApp\ICE-STONE-APP> npx expo config --json
+{"name":"ICE-STONE-APP","slug":"ICE-STONE-APP","version":"1.0.0","orientation":"portrait","icon":"./assets/images/icon.png","scheme":"icestoneapp","userInterfaceStyle":"automatic","ios":{"icon":"./assets/expo.icon"},"android":{"adaptiveIcon":{"backgroundColor":"#E6F4FE","foregroundImage":"./assets/images/android-icon-foreground.png","backgroundImage":"./assets/images/android-icon-background.png","monochromeImage":"./assets/images/android-icon-monochrome.png"},"predictiveBackGestureEnabled":false},"web":{"output":"static","favicon":"./assets/images/favicon.png"},"plugins":["expo-router",["expo-splash-screen",{"backgroundColor":"#208AEF","image":"./assets/images/splash-icon.png","imageWidth":76}]],"experiments":{"typedRoutes":true,"reactCompiler":true},"_internal":{"isDebug":false,"projectRoot":"C:\\Users\\Stefano\\Desktop\\IceStoneService\\IceStoneApp\\ICE-STONE-APP","dynamicConfigPath":{},"staticConfigPath":"C:\\Users\\Stefano\\Desktop\\IceStoneService\\IceStoneApp\\ICE-STONE-APP\\app.json","packageJsonPath":"C:\\Users\\Stefano\\Desktop\\IceStoneService\\IceStoneApp\\ICE-STONE-APP\\package.json","pluginHistory":{"expo-splash-screen":{"name":"expo-splash-screen",
+PS C:\Users\Stefano\Desktop\IceStoneService\IceStoneApp\ICE-STONE-APP> 
